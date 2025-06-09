@@ -348,6 +348,78 @@ section ul li {
     gap: 2rem;
 }
 
+/*Modo oscuro*/
+
+#toggle-dark-mode {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 999;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+}
+
+/* Modo oscuro */
+body.dark-mode {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+body.dark-mode header h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode a,
+body.dark-mode .proyecto h3 {
+    color: var(--color-white);
+}
+
+body.dark-mode section,
+body.dark-mode .proyecto {
+    background-color: var(--color-gray-dark);
+}
+
+body.dark-mode p,
+body.dark-mode .proyecto p,
+body.dark-mode li,
+body.dark-mode span,
+body.dark-mode .typing {
+    color: var(--color-white);
+}
+
+body.dark-mode .navbar a {
+    color: var(--color-white);
+}
+
+body.dark-mode .navbar a:hover {
+    color: #00FFF7;
+}
+
+body.dark-mode #cv a {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+body.dark-mode #cv a:hover {
+    background-color: var(--color-gray-light);
+    color: var(--color-black);
+}
+
+body.dark-mode #particles-js {
+    background: var(--color-black);
+}
+
+
+body.dark-mode section{
+    padding: 20px 20px 20px 20px;
+}
+
 /*Tablet design*/
 
 @media (min-width: 600px) {
