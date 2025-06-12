@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daniel Fernández Balsera</title>
+    <title data-i18n="header.title">Daniel Fernández Balsera</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -14,51 +14,53 @@
 <body>
 
     <div class="navbar-wrapper">
-        <button id="toggle-dark-mode">🌙 Modo oscuro</button>
-        <button class="nav-arrow left" aria-label="Scroll izquierda">‹</button>
+
+        <button id="toggle-dark-mode" data-i18n="navbar.darkMode">🌙 Modo oscuro</button>
+
+        <button class="nav-arrow left" aria-label="Scroll izquierda" data-i18n="navbar.scrollLeft">‹</button>
         <nav class="navbar">
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#tecnologias">Tecnologías</a></li>
-                <li><a href="#experiencia">Experiencia</a></li>
-                <li><a href="#estudios">Estudios</a></li>
-                <li><a href="#personal">Biografía</a></li>
-                <li><a href="#cv">CV</a></li>
-                <li><a href="#redes">Redes</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#inicio" data-i18n="navbar.menu.0">Inicio</a></li>
+                <li><a href="#sobre-mi" data-i18n="navbar.menu.1">Sobre mí</a></li>
+                <li><a href="#proyectos" data-i18n="navbar.menu.2">Proyectos</a></li>
+                <li><a href="#tecnologias" data-i18n="navbar.menu.3">Tecnologías</a></li>
+                <li><a href="#experiencia" data-i18n="navbar.menu.4">Experiencia</a></li>
+                <li><a href="#estudios" data-i18n="navbar.menu.5">Estudios</a></li>
+                <li><a href="#personal" data-i18n="navbar.menu.6">Biografía</a></li>
+                <li><a href="#cv" data-i18n="navbar.menu.7">CV</a></li>
+                <li><a href="#redes" data-i18n="navbar.menu.8">Redes</a></li>
+                <li><a href="#contacto" data-i18n="navbar.menu.9">Contacto</a></li>
             </ul>
         </nav>
-        <button class="nav-arrow right" aria-label="Scroll derecha">›</button>
+        <button class="nav-arrow right" aria-label="Scroll derecha" data-i18n="navbar.scrollRight">›</button>
     </div>
 
     <header>
-        <h1 id="title">Daniel Balsera</h1>
+        <h1 id="title" data-i18n="header.title">Daniel Balsera</h1>
     </header>
 
     <section id="inicio">
-        <h2 class="typing">Hola, soy Daniel</h2>
-        <p>Diseñador web & programador.</p>
-        <p>Combino diseño intuitivo con código limpio para crear experiencias web funcionales y visualmente impactantes.
-        </p>
+        <h2 class="typing" data-i18n="inicio.greeting">Hola, soy Daniel</h2>
+        <p data-i18n="inicio.profession">Diseñador web & programador.</p>
+        <p data-i18n="inicio.description">Combino diseño intuitivo con código limpio para crear experiencias web
+            funcionales y visualmente impactantes.</p>
     </section>
 
     <section id="sobre-mi">
-        <h2>Sobre mí</h2>
-        <p>
+        <h2 data-i18n="sobreMi.title">Sobre mí</h2>
+        <p data-i18n="sobreMi.p1">
             Soy un diseñador web y programador apasionado por crear experiencias digitales modernas, funcionales y
             estéticamente impactantes.
             Me especializo en el desarrollo de interfaces limpias y eficientes, combinando creatividad con código para
             dar vida a ideas únicas.
         </p><br />
-        <p>
+        <p data-i18n="sobreMi.p2">
             Tengo experiencia trabajando con HTML, CSS, JavaScript y frameworks modernos. Me gusta mantenerme
             actualizado con las últimas
             tendencias en diseño UI/UX y tecnologías web. Siempre busco soluciones que sean tanto visualmente atractivas
             como técnicamente sólidas.
         </p><br />
-        <p>
+        <p data-i18n="sobreMi.p3">
             Actualmente estoy construyendo mi portfolio y trabajando en varios proyectos personales. Si tienes una idea,
             un proyecto o simplemente
             quieres charlar sobre diseño y desarrollo, estaré encantado de conectar contigo.
@@ -66,188 +68,187 @@
     </section>
 
     <section id="proyectos">
-        <h2>Proyectos Profesionales</h2>
-        <h3 class="categoriaProyecto">Páginas web</h3>
-        <div class="proyectos-grid">
+        <h2 data-i18n="proyectos.title">Proyectos Profesionales</h2>
+        <h3 class="categoriaProyecto" data-i18n="proyectos.categoria">Páginas web</h3>
+        <article class="proyectos-grid">
             <div class="proyecto">
                 <img src="./imgs/ECopy.PNG" alt="Proyecto 1" style=" width: 80%; height: auto;">
-                <h3>Web Ecopy</h3>
-                <p>Web corporativa desarrollada durante mis prácticas en Waricreative. Colaboré en diseño y la
-                    maquetación utilizando WordPress, personalizando temas y plugins para adaptarlos a las necesidades
-                    del cliente. El proyecto incluyó la optimización para SEO y la integración de funcionalidades
-                    específicas solicitadas por la empresa.</p>
-                <a href="https://ecopycordoba.com/" target="_blank">Ver proyecto</a>
+                <h3 data-i18n="proyectos.proyectos.0.nombre">Web Ecopy</h3>
+                <p data-i18n="proyectos.proyectos.0.descripcion">Web corporativa desarrollada durante mis prácticas en
+                    Waricreative...</p>
+                <a href="https://ecopycordoba.com/" target="_blank" data-i18n="proyectos.proyectos.0.link">Ver
+                    proyecto</a>
             </div>
 
             <div class="proyecto">
                 <img src="./imgs/MamasMagicas.PNG" alt="Proyecto 2" style=" width: 80%; height: auto;">
-                <h3>Web mamás mágicas</h3>
-                <p>Web corporativa desarrollada durante mis prácticas en Waricreative. Colaboré en diseño y la
-                    maquetación utilizando WordPress, personalizando temas y plugins para adaptarlos a las necesidades
-                    del cliente. El proyecto incluyó la optimización para SEO y la integración de funcionalidades
-                    específicas solicitadas por la empresa.
-                </p>
-                <a href="https://escuelaparamamasmagicas.com/" target="_blank">Ver proyecto</a>
+                <h3 data-i18n="proyectos.proyectos.1.nombre">Web mamás mágicas</h3>
+                <p data-i18n="proyectos.proyectos.1.descripcion">Web corporativa desarrollada durante mis prácticas en
+                    Waricreative...</p>
+                <a href="https://escuelaparamamasmagicas.com/" target="_blank"
+                    data-i18n="proyectos.proyectos.1.link">Ver proyecto</a>
             </div>
-        </div>
+        </article>
     </section>
     <!-- Nueva sección: Proyectos en progreso -->
     <section id="proyectos-en-progreso">
-        <h2>Proyectos en progreso</h2>
-        <div class="proyectos-grid">
+        <h2 data-i18n="proyectosEnProgreso.title">Proyectos en progreso</h2>
+        <article class="proyectos-grid">
 
             <div class="proyecto">
-                <h3>Web de mi futuro proyecto: Balsera Design</h3>
+                <h3 data-i18n="proyectosEnProgreso.proyectos.0.nombre">Web de mi futuro proyecto: Balsera Design</h3>
                 <img src="./imgs/OpcionLogo2.png" alt="Proyecto 2" style=" width: 80%; height: auto;">
-
-                <p>Estoy desarrollando una web con wordpress para mi futuro proyecto, en la que las diferentes empresas
-                    podrán contactar conmigo para el diseño de
-                    sus páginas web, logos, mockups, etc..
-                </p>
-                <p>Fecha estimada: 25-07-2025</p>
+                <p data-i18n="proyectosEnProgreso.proyectos.0.descripcion">Estoy desarrollando una web con wordpress
+                    para mi futuro proyecto...</p>
+                <p data-i18n="proyectosEnProgreso.proyectos.0.fecha">Fecha estimada: 25-07-2025</p>
             </div>
             <div class="proyecto">
-                <h3>Plataforma para Cinéfilos y Gamers</h3>
-                <p>Estoy desarrollando una plataforma de noticias y blogs sobre el mundo del cine, con nuevos estrenos,
-                    información sobre estos, sobre videojuegos, etc..</p>
-                <p>Fecha estimada: 25-11-2025</p>
+                <h3 data-i18n="proyectosEnProgreso.proyectos.1.nombre">Plataforma para Cinéfilos y Gamers</h3>
+                <p data-i18n="proyectosEnProgreso.proyectos.1.descripcion">Estoy desarrollando una plataforma de
+                    noticias y blogs sobre el mundo del cine...</p>
+                <p data-i18n="proyectosEnProgreso.proyectos.1.fecha">Fecha estimada: 25-11-2025</p>
             </div>
-        </div>
+        </article>
     </section>
 
     <!-- Sección Tecnologías / Habilidades -->
     <section id="tecnologias">
-        <h2>Tecnologías / Habilidades</h2>
-        <h3>Profesionales</h3>
+        <h2 data-i18n="tecnologias.title">Tecnologías / Habilidades</h2>
+        <h3 data-i18n="tecnologias.profesionales">Profesionales</h3>
         <div class="skills-list professional">
-            <span class="skill-tag">WordPress (Avada)</span>
-            <span class="skill-tag">WooCommerce</span>
-            <span class="skill-tag">HTML5</span>
-            <span class="skill-tag">CSS</span>
-            <span class="skill-tag">JavaScript</span>
-            <span class="skill-tag">Consultoría ERP</span>
-            <span class="skill-tag">Odoo</span>
+            <span class="skill-tag" data-i18n="tecnologias.profesionalesList.0">WordPress (Avada)</span>
+            <span class="skill-tag" data-i18n="tecnologias.profesionalesList.1">WooCommerce</span>
+            <span class="skill-tag" data-i18n="tecnologias.profesionalesList.2">HTML5</span>
+            <span class="skill-tag" data-i18n="tecnologias.profesionalesList.3">CSS</span>
+            <span class="skill-tag" data-i18n="tecnologias.profesionalesList.4">JavaScript</span>
+            <span class="skill-tag" data-i18n="tecnologias.profesionalesList.5">Consultoría ERP</span>
+            <span class="skill-tag" data-i18n="tecnologias.profesionalesList.6">Odoo</span>
         </div>
 
-        <h3>Personales</h3>
+        <h3 data-i18n="tecnologias.personales">Personales</h3>
         <div class="skills-list personal">
-            <span class="skill-tag">Trabajo en equipo</span>
-            <span class="skill-tag">Apoyo a compañeros</span>
-            <span class="skill-tag">Resolución de problemas</span>
-            <span class="skill-tag">Organización</span>
-            <span class="skill-tag">Ganas de aprender</span>
+            <span class="skill-tag" data-i18n="tecnologias.personalesList.0">Trabajo en equipo</span>
+            <span class="skill-tag" data-i18n="tecnologias.personalesList.1">Apoyo a compañeros</span>
+            <span class="skill-tag" data-i18n="tecnologias.personalesList.2">Resolución de problemas</span>
+            <span class="skill-tag" data-i18n="tecnologias.personalesList.3">Organización</span>
+            <span class="skill-tag" data-i18n="tecnologias.personalesList.4">Ganas de aprender</span>
         </div>
     </section>
 
     <section id="experiencia">
-        <h2>Experiencia Laboral</h2>
+        <h2 data-i18n="experiencia.title">Experiencia Laboral</h2>
         <div class="job">
-            <h3>Waricreative · 2025</h3>
-            <p>Diseñador web y gráfico en prácticas</p>
+            <h3 data-i18n="experiencia.jobs.0.empresa">Waricreative · 2025</h3>
+            <p data-i18n="experiencia.jobs.0.puesto">Diseñador web y gráfico en prácticas</p>
             <ul>
-                <li>Creación de sitios web con WordPress, HTML, CSS y Avada</li>
-                <li>Adaptación de plantillas y diseño responsive</li>
-                <li>Diseño de mockups con Canva</li>
+                <li data-i18n="experiencia.jobs.0.tareas.0">Creación de sitios web con WordPress, HTML, CSS y Avada</li>
+                <li data-i18n="experiencia.jobs.0.tareas.1">Adaptación de plantillas y diseño responsive</li>
+                <li data-i18n="experiencia.jobs.0.tareas.2">Diseño de mockups con Canva</li>
             </ul>
         </div>
         <div class="job">
-            <h3>Solar del Valle · 2023-2024</h3>
-            <p>Consultor Odoo y Dpto. Software</p>
+            <h3 data-i18n="experiencia.jobs.1.empresa">Solar del Valle · 2023-2024</h3>
+            <p data-i18n="experiencia.jobs.1.puesto">Consultor Odoo y Dpto. Software</p>
             <ul>
-                <li>Coordinación del equipo de desarrollo</li>
-                <li>Consultoría, análisis e implementación de Odoo</li>
-                <li>Desarrollo de soluciones personalizadas</li>
+                <li data-i18n="experiencia.jobs.1.tareas.0">Coordinación del equipo de desarrollo</li>
+                <li data-i18n="experiencia.jobs.1.tareas.1">Consultoría, análisis e implementación de Odoo</li>
+                <li data-i18n="experiencia.jobs.1.tareas.2">Desarrollo de soluciones personalizadas</li>
             </ul>
         </div>
         <div class="job">
-            <h3>Konecta (Iberdrola) · 2023</h3>
-            <p>Teleoperador</p>
+            <h3 data-i18n="experiencia.jobs.2.empresa">Konecta (Iberdrola) · 2023</h3>
+            <p data-i18n="experiencia.jobs.2.puesto">Teleoperador</p>
             <ul>
-                <li>Atención al cliente y resolución de incidencias</li>
-                <li>Gestión de contratos y servicios energéticos</li>
+                <li data-i18n="experiencia.jobs.2.tareas.0">Atención al cliente y resolución de incidencias</li>
+                <li data-i18n="experiencia.jobs.2.tareas.1">Gestión de contratos y servicios energéticos</li>
             </ul>
         </div>
         <div class="job">
-            <h3>ICCA · 2023</h3>
-            <p>Desarrollador Backend</p>
+            <h3 data-i18n="experiencia.jobs.3.empresa">ICCA · 2023</h3>
+            <p data-i18n="experiencia.jobs.3.puesto">Desarrollador Backend</p>
             <ul>
-                <li>Desarrollo con C# y JavaScript</li>
-                <li>Mantenimiento y actualización de servicios backend</li>
+                <li data-i18n="experiencia.jobs.3.tareas.0">Desarrollo con C# y JavaScript</li>
+                <li data-i18n="experiencia.jobs.3.tareas.1">Mantenimiento y actualización de servicios backend</li>
             </ul>
         </div>
         <div class="job">
-            <h3>Smalldev · 2023</h3>
-            <p>Prácticas de consultor Odoo</p>
+            <h3 data-i18n="experiencia.jobs.4.empresa">Smalldev · 2023</h3>
+            <p data-i18n="experiencia.jobs.4.puesto">Prácticas de consultor Odoo</p>
             <ul>
-                <li>Personalización de módulos en Python y XML</li>
-                <li>Pruebas funcionales y soporte a clientes</li>
-                <li>Documentación de procesos</li>
+                <li data-i18n="experiencia.jobs.4.tareas.0">Personalización de módulos en Python y XML</li>
+                <li data-i18n="experiencia.jobs.4.tareas.1">Pruebas funcionales y soporte a clientes</li>
+                <li data-i18n="experiencia.jobs.4.tareas.2">Documentación de procesos</li>
             </ul>
         </div>
         <div class="job">
-            <h3>SIS Córdoba · 2021</h3>
-            <p>Prácticas de Mantenimiento SI</p>
+            <h3 data-i18n="experiencia.jobs.5.empresa">SIS Córdoba · 2021</h3>
+            <p data-i18n="experiencia.jobs.5.puesto">Prácticas de Mantenimiento SI</p>
             <ul>
-                <li>Instalación y configuración de impresoras</li>
-                <li>Diagnóstico y resolución de incidencias</li>
-                <li>Mantenimiento preventivo de equipos</li>
+                <li data-i18n="experiencia.jobs.5.tareas.0">Instalación y configuración de impresoras</li>
+                <li data-i18n="experiencia.jobs.5.tareas.1">Diagnóstico y resolución de incidencias</li>
+                <li data-i18n="experiencia.jobs.5.tareas.2">Mantenimiento preventivo de equipos</li>
             </ul>
         </div>
         <div class="job">
-            <h3>STC Córdoba · 2019</h3>
-            <p>Prácticas de técnico informático</p>
+            <h3 data-i18n="experiencia.jobs.6.empresa">STC Córdoba · 2019</h3>
+            <p data-i18n="experiencia.jobs.6.puesto">Prácticas de técnico informático</p>
             <ul>
-                <li>Mantenimiento y reparación de equipos</li>
-                <li>Configuración de redes y sistemas operativos</li>
-                <li>Soporte técnico a usuarios</li>
+                <li data-i18n="experiencia.jobs.6.tareas.0">Mantenimiento y reparación de equipos</li>
+                <li data-i18n="experiencia.jobs.6.tareas.1">Configuración de redes y sistemas operativos</li>
+                <li data-i18n="experiencia.jobs.6.tareas.2">Soporte técnico a usuarios</li>
             </ul>
         </div>
     </section>
 
     <section id="estudios">
-        <h2>Estudios</h2>
+        <h2 data-i18n="estudios.title">Estudios</h2>
         <ul>
-            <li>2024–2025 · Desarrollo de Aplicaciones Web · IES Gran Capitán</li>
-            <li>2021–2023 · Desarrollo de Aplicaciones Multiplataforma · CES Lope de Vega</li>
-            <li>2019–2021 · Administración de Sistemas Informáticos en Red · CES Lope de Vega</li>
-            <li>2017–2019 · Sistemas Microinformáticos y Redes · CES Lope de Vega</li>
+            <li data-i18n="estudios.estudiosList.0">2024–2025 · Desarrollo de Aplicaciones Web · IES Gran Capitán</li>
+            <li data-i18n="estudios.estudiosList.1">2021–2023 · Desarrollo de Aplicaciones Multiplataforma · CES Lope de
+                Vega</li>
+            <li data-i18n="estudios.estudiosList.2">2019–2021 · Administración de Sistemas Informáticos en Red · CES
+                Lope de Vega</li>
+            <li data-i18n="estudios.estudiosList.3">2017–2019 · Sistemas Microinformáticos y Redes · CES Lope de Vega
+            </li>
         </ul>
     </section>
 
     <section id="personal">
-        <h2>Sobre mí (Personal)</h2>
-        <p>Soy una persona proactiva, organizada y con muchas ganas de seguir creciendo en el mundo del desarrollo web y
-            software. Me entusiasma el aprendizaje continuo y disfruto colaborando con equipos multidisciplinares. Fuera
-            del trabajo, me gusta el diseño gráfico, la música, entrenar, viajar y descubrir nuevas culturas.</p>
+        <h2 data-i18n="personal.title">Sobre mí (Personal)</h2>
+        <p data-i18n="personal.descripcion">Soy una persona proactiva, organizada y con muchas ganas de seguir creciendo
+            en el mundo del desarrollo web y software...</p>
     </section>
 
     <section id="cv">
-        <h2>Descargar CV</h2>
-        <p>Puedes descargar mi CV actualizado en formato PDF desde aquí:</p>
-        <a href="./docs/Daniel-Balsera-CV.pdf" download>Descargar CV</a>
+        <h2 data-i18n="cv.title">Descargar CV</h2>
+        <p data-i18n="cv.descripcion">Puedes descargar mi CV actualizado en formato PDF desde aquí:</p>
+        <a href="./docs/Daniel-Balsera-CV.pdf" download data-i18n="cv.link">Descargar CV</a>
     </section>
 
     <section id="redes">
-        <h2>Redes Sociales</h2>
+        <h2 data-i18n="redes.title">Redes Sociales</h2>
         <ul>
-            <li><a href="https://www.linkedin.com/in/daniel-fernández-balsera-03315425b"> LinkedIn</a></li>
-            <li><a href="https://github.com/BalseraDesign" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/daniel-fernández-balsera-03315425b"
+                    data-i18n="redes.links.0.nombre"> LinkedIn</a></li>
+            <li><a href="https://github.com/BalseraDesign" target="_blank" data-i18n="redes.links.1.nombre">GitHub</a>
+            </li>
         </ul>
     </section>
 
     <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Correo: <a href="mailto:baseradesign@gmail.com">balseradesign@gmail.com</a></p>
-        <p>Teléfono: <a href="tel:+123456789">+34 690 99 50 89</a></p>
+        <h2 data-i18n="contacto.title">Contacto</h2>
+        <p><span data-i18n="contacto.correo">Correo: </span><a href="mailto:baseradesign@gmail.com"
+                data-i18n="contacto.correoLink">balseradesign@gmail.com</a></p>
+        <p><span data-i18n="contacto.telefono">Teléfono: </span><a href="tel:+123456789"
+                data-i18n="contacto.telefonoLink">+34 690 99 50 89</a></p>
     </section>
-
-
 
     <script src="./js/scrollReveal.js"></script>
     <div id="particles-js"></div>
     <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
     <script src="./js/fondoAnimado.js"></script>
     <script src="./js/darkmode.js"></script>
+    <script src="./js/i18n.js"></script>
 </body>
 <script src="./js/navbar.js"></script>
 
