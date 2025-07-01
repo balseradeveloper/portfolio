@@ -432,6 +432,9 @@ body.dark-mode #particles-js {
 }
 
 
+body.dark-mode .skill-tag {
+    color: var(--color-black) !important;
+}
 
 
 /*Tablet design*/
