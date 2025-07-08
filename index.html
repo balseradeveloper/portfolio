@@ -15,22 +15,22 @@
 <body>
 
     <div class="navbar-wrapper">
-
-        <button id="toggle-dark-mode">🌙 Modo oscuro</button>
+        <button id="toggle-dark-mode" data-translate="modo-oscuro">🌙 Modo oscuro</button>
+        <button id="toggle-language">🇺🇸 English</button>
 
         <button class="nav-arrow left" aria-label="Scroll izquierda">‹</button>
         <nav class="navbar">
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#tecnologias">Tecnologías</a></li>
-                <li><a href="#experiencia">Experiencia</a></li>
-                <li><a href="#estudios">Estudios</a></li>
-                <li><a href="#personal">Biografía</a></li>
-                <li><a href="#cv">CV</a></li>
-                <li><a href="#redes">Redes</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#inicio" data-translate="inicio">Inicio</a></li>
+                <li><a href="#sobre-mi" data-translate="sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos" data-translate="proyectos">Proyectos</a></li>
+                <li><a href="#tecnologias" data-translate="tecnologias">Tecnologías</a></li>
+                <li><a href="#experiencia" data-translate="experiencia">Experiencia</a></li>
+                <li><a href="#estudios" data-translate="estudios">Estudios</a></li>
+                <li><a href="#personal" data-translate="personal">Biografía</a></li>
+                <li><a href="#cv" data-translate="cv">CV</a></li>
+                <li><a href="#redes" data-translate="redes">Redes</a></li>
+                <li><a href="#contacto" data-translate="contacto">Contacto</a></li>
             </ul>
         </nav>
         <button class="nav-arrow right" aria-label="Scroll derecha">›</button>
@@ -41,40 +41,40 @@
     </header>
 
     <section id="inicio">
-        <h2 class="typing">Hola, soy Daniel</h2>
-        <p>Diseñador web & programador.</p>
-        <p>Combino diseño intuitivo con código limpio para crear experiencias web
+        <h2 class="typing" data-translate="titulo-principal">Hola, soy Daniel</h2>
+        <p data-translate="subtitulo">Diseñador web & programador.</p>
+        <p data-translate="descripcion-inicio">Combino diseño intuitivo con código limpio para crear experiencias web
             funcionales y visualmente impactantes.</p>
     </section>
 
     <section id="sobre-mi">
-        <h2>Sobre mí</h2>
-        <p>
+        <h2 data-translate="sobre-mi-titulo">Sobre mí</h2>
+        <p data-translate="sobre-mi-p1">
             Soy un diseñador web y programador apasionado por crear experiencias digitales modernas, funcionales y
             estéticamente impactantes.
             Me especializo en el desarrollo de interfaces limpias y eficientes, combinando creatividad con código para
             dar vida a ideas únicas.
         </p><br />
-        <p>
+        <p data-translate="sobre-mi-p2">
             Tengo experiencia trabajando con HTML, CSS, JavaScript y frameworks modernos. Me gusta mantenerme
             actualizado con las últimas
             tendencias en diseño UI/UX y tecnologías web. Siempre busco soluciones que sean tanto visualmente atractivas
             como técnicamente sólidas.
         </p><br />
-        <p>
+        <p data-translate="sobre-mi-p3">
             Actualmente me estoy especializando en inteligencia artificial (AI) y consultoría en AI, aplicando mis conocimientos de desarrollo web y 
             programación para crear soluciones innovadoras basadas en IA.
         </p>
     </section>
 
     <section id="proyectos">
-        <h2>Proyectos Profesionales</h2>
-        <h3 class="categoriaProyecto">Páginas web</h3>
+        <h2 data-translate="proyectos-titulo">Proyectos Profesionales</h2>
+        <h3 class="categoriaProyecto" data-translate="paginas-web">Páginas web</h3>
         <article class="proyectos-grid">
             <div class="proyecto">
                 <img src="./imgs/ECopy.PNG" alt="Proyecto 1" style=" width: 80%; height: auto;">
                 <h3>Web Ecopy</h3>
-                <p>Web corporativa desarrollada durante mis prácticas en Waricreative. Colaboré en diseño y la
+                <p data-translate="proyecto-ecopy">Web corporativa desarrollada durante mis prácticas en Waricreative. Colaboré en diseño y la
                     maquetación utilizando WordPress, personalizando temas y plugins para adaptarlos a las necesidades
                     del cliente. El proyecto incluyó la optimización para SEO y la integración de funcionalidades
                     específicas solicitadas por la empresa.</p>
@@ -83,33 +83,32 @@
                     <iconify-icon icon="simple-icons:css"></iconify-icon>
                     <iconify-icon icon="simple-icons:html5"></iconify-icon>
                 </div>
-                <a href="https://ecopycordoba.com/" target="_blank">Ver proyecto</a>
+                <a href="https://ecopycordoba.com/" target="_blank" data-translate="ver-proyecto">Ver proyecto</a>
             </div>
 
             <div class="proyecto">
                 <img src="./imgs/MamasMagicas.PNG" alt="Proyecto 2" style=" width: 80%; height: auto;">
                 <h3>Web mamás mágicas</h3>
-                <p>Web corporativa desarrollada durante mis prácticas en Waricreative. Colaboré en diseño y la
+                <p data-translate="proyecto-mamas">Web corporativa desarrollada durante mis prácticas en Waricreative. Colaboré en diseño y la
                     maquetación utilizando WordPress, personalizando temas y plugins para adaptarlos a las necesidades
                     del cliente. El proyecto incluyó la optimización para SEO y la integración de funcionalidades
-                    específicas solicitadas por la empresa. </p>
+                    específicas solicitadas por la empresa.</p>
                 <div class="iconosTecnologias">
                     <iconify-icon icon="simple-icons:wordpress"></iconify-icon>
                     <iconify-icon icon="simple-icons:css"></iconify-icon>
                     <iconify-icon icon="simple-icons:html5"></iconify-icon>
                 </div>
-                <a href="https://escuelaparamamasmagicas.com/" target="_blank">Ver proyecto</a>
+                <a href="https://escuelaparamamasmagicas.com/" target="_blank" data-translate="ver-proyecto">Ver proyecto</a>
             </div>
         </article>
-        <h3 class="categoriaProyecto" style="margin-top:20px">Apps Web</h3>
+        <h3 class="categoriaProyecto" style="margin-top:20px" data-translate="apps-web">Apps Web</h3>
         <article class="proyectos-grid">
             <div class="proyecto">
                 <img src="./imgs/Clima-Sites.png" alt="Proyecto 3" style=" width: 80%; height: auto;">
                 <h3>Clima-Sites</h3>
-                <p>Clima-Sites es una herramienta web interactiva que combina información meteorológica en tiempo real
+                <p data-translate="proyecto-clima">Clima-Sites es una herramienta web interactiva que combina información meteorológica en tiempo real
                     con recomendaciones turísticas inteligentes. Diseñada para viajeros, curiosos o locales, permite
-                    descubrir qué hacer en una ciudad en función del clima actual. 
-                </p>
+                    descubrir qué hacer en una ciudad en función del clima actual.</p>
                 <div class="iconosTecnologias">
                     <iconify-icon icon="simple-icons:javascript"></iconify-icon>
                     <iconify-icon icon="simple-icons:css"></iconify-icon>
@@ -118,30 +117,28 @@
                     <iconify-icon icon="simple-icons:bootstrap"></iconify-icon>
                 </div>
                 <a href="https://clima-sites.vercel.app/" target="_blank" disabled style="pointer-events: none; opacity: 0.6; cursor: not-allowed;">
-                    Ver proyecto (En mejoras)
+                    <span data-translate="ver-proyecto-mejoras">Ver proyecto (En mejoras)</span>
                 </a>
-                <span style="display:block; color:#e67e22; font-size:0.95em; margin-top:4px;">Actualmente en mantenimiento y mejoras</span>
+                <span style="display:block; color:#e67e22; font-size:0.95em; margin-top:4px;" data-translate="mantenimiento">Actualmente en mantenimiento y mejoras</span>
             </div>
             <div class="proyecto">
                 <img src="./imgs/Capilearn.PNG" alt="Proyecto 4" style=" width: 80%; height: 165px;">
                 <h3>TFG: Capilearn</h3>
-                <p>Capilearn es una plataforma de estudiantes desarrollada para el instituto IES Gran Capitán donde los
+                <p data-translate="proyecto-capilearn">Capilearn es una plataforma de estudiantes desarrollada para el instituto IES Gran Capitán donde los
                     alumnos pueden subir contenido en forma de vídeo para ayudar a sus compañeros a estudiar.</p>
-
                 <div class="iconosTecnologias">
                     <iconify-icon icon="simple-icons:javascript"></iconify-icon>
                     <iconify-icon icon="simple-icons:css"></iconify-icon>
                     <iconify-icon icon="simple-icons:html5"></iconify-icon>
                     <iconify-icon icon="simple-icons:php"></iconify-icon>
                 </div>
-                <a href="https://github.com/balseradeveloper/TFG-Capilearn" target="_blank">Ver proyecto</a>
+                <a href="https://github.com/balseradeveloper/TFG-Capilearn" target="_blank" data-translate="ver-proyecto">Ver proyecto</a>
             </div>
             <div class="proyecto">
                 <img src="./imgs/Destacadas.PNG" alt="Proyecto 5" style=" width: 80%; height: 165px;">
                 <h3>Frikema</h3>
-                <p>Frikema es una app web en la que puedes consultar los últimos estrenos del cine, así como ver
-                    información sobre
-                    películas de otros años y podrás consultar los cines más destacados de cada ciudad de andalucía.</p>
+                <p data-translate="proyecto-frikema">Frikema es una app web en la que puedes consultar los últimos estrenos del cine, así como ver
+                    información sobre películas de otros años y podrás consultar los cines más destacados de cada ciudad de andalucía.</p>
                 <div class="iconosTecnologias">
                     <iconify-icon icon="simple-icons:javascript"></iconify-icon>
                     <iconify-icon icon="simple-icons:tailwindcss"></iconify-icon>
@@ -149,19 +146,19 @@
                     <iconify-icon icon="simple-icons:html5"></iconify-icon>
                     <iconify-icon icon="simple-icons:typescript"></iconify-icon>
                 </div>
-                <a href="https://frikema-psi.vercel.app/" target="_blank">Ver proyecto</a>
+                <a href="https://frikema-psi.vercel.app/" target="_blank" data-translate="ver-proyecto">Ver proyecto</a>
             </div>
         </article>
     </section>
-    <!-- Nueva sección: Proyectos en progreso -->
+
     <section id="proyectos-en-progreso">
-        <h2>Proyectos en progreso</h2>
+        <h2 data-translate="proyectos-progreso">Proyectos en progreso</h2>
         <article class="proyectos-grid">
             <div class="proyecto">
                 <h3>BalserAI</h3>
-                <img src="./imgs/BETABalseraAI.PNG" alt="BalserAI Logo" style="width: 80%; height: auto;" id="logo-proyecto">
-                <p>BalserAI será una inteligencia artificial diseñada para traducir documentos y proporcionar información relevante al usuario de forma automática y eficiente.</p>
-                <p>Fecha estimada: 8-08-2025</p>
+                <img src="./imgs/BETABalseraAI.PNG" alt="BalserAI Logo" style="width: 80%; height: auto;" id="logoProyecto">
+                <p data-translate="proyecto-balserai">BalserAI será una inteligencia artificial diseñada para traducir documentos y proporcionar información relevante al usuario de forma automática y eficiente.</p>
+                <p><span data-translate="fecha-estimada">Fecha estimada:</span> 8-08-2025</p>
                 <div class="iconosTecnologias">
                     <iconify-icon icon="simple-icons:typescript"></iconify-icon>
                     <iconify-icon icon="simple-icons:react"></iconify-icon>
@@ -172,10 +169,9 @@
         </article>
     </section>
 
-    <!-- Sección Tecnologías / Habilidades -->
     <section id="tecnologias">
-        <h2>Tecnologías / Habilidades Destacadas</h2>
-        <h3>Profesionales</h3>
+        <h2 data-translate="tecnologias-titulo">Tecnologías / Habilidades Destacadas</h2>
+        <h3 data-translate="profesionales">Profesionales</h3>
         <div class="skills-list professional">
             <span class="skill-tag">WordPress (Avada)</span>
             <span class="skill-tag">WooCommerce</span>
@@ -190,129 +186,125 @@
             <span class="skill-tag">AI Consulting</span>
         </div>
 
-        <h3>Personales</h3>
+        <h3 data-translate="personales">Personales</h3>
         <div class="skills-list personal">
-            <span class="skill-tag">Trabajo en equipo</span>
-            <span class="skill-tag">Apoyo a compañeros</span>
-            <span class="skill-tag">Resolución de problemas</span>
-            <span class="skill-tag">Organización</span>
-            <span class="skill-tag">Ganas de aprender</span>
+            <span class="skill-tag" data-translate="trabajo-equipo">Trabajo en equipo</span>
+            <span class="skill-tag" data-translate="apoyo-companeros">Apoyo a compañeros</span>
+            <span class="skill-tag" data-translate="resolucion-problemas">Resolución de problemas</span>
+            <span class="skill-tag" data-translate="organizacion">Organización</span>
+            <span class="skill-tag" data-translate="ganas-aprender">Ganas de aprender</span>
         </div>
     </section>
 
     <section id="experiencia">
-        <h2>Experiencia Laboral</h2>
+        <h2 data-translate="experiencia-titulo">Experiencia Laboral</h2>
         <div class="job">
             <h3>Waricreative · 2025</h3>
-            <p>Diseñador web y gráfico en prácticas</p>
+            <p data-translate="waricreative-cargo">Diseñador web y gráfico en prácticas</p>
             <ul>
-                <li>Creación de sitios web con WordPress, HTML, CSS y Avada</li>
-                <li>Adaptación de plantillas y diseño responsive</li>
-                <li>Diseño de mockups con Canva</li>
+                <li data-translate="waricreative-1">Creación de sitios web con WordPress, HTML, CSS y Avada</li>
+                <li data-translate="waricreative-2">Adaptación de plantillas y diseño responsive</li>
+                <li data-translate="waricreative-3">Diseño de mockups con Canva</li>
             </ul>
         </div>
         <div class="job">
             <h3>Solar del Valle · 2023-2024</h3>
-            <p>Consultor Odoo y Dpto. Software</p>
+            <p data-translate="solar-cargo">Consultor Odoo y Dpto. Software</p>
             <ul>
-                <li>Coordinación del equipo de desarrollo</li>
-                <li>Consultoría, análisis e implementación de Odoo</li>
-                <li>Desarrollo de soluciones personalizadas</li>
+                <li data-translate="solar-1">Coordinación del equipo de desarrollo</li>
+                <li data-translate="solar-2">Consultoría, análisis e implementación de Odoo</li>
+                <li data-translate="solar-3">Desarrollo de soluciones personalizadas</li>
             </ul>
         </div>
         <div class="job">
             <h3>Konecta (Iberdrola) · 2023</h3>
-            <p>Teleoperador</p>
+            <p data-translate="konecta-cargo">Teleoperador</p>
             <ul>
-                <li>Atención al cliente y resolución de incidencias</li>
-                <li>Gestión de contratos y servicios energéticos</li>
+                <li data-translate="konecta-1">Atención al cliente y resolución de incidencias</li>
+                <li data-translate="konecta-2">Gestión de contratos y servicios energéticos</li>
             </ul>
         </div>
         <div class="job">
             <h3>ICCA · 2023</h3>
-            <p>Desarrollador Backend</p>
+            <p data-translate="icca-cargo">Desarrollador Backend</p>
             <ul>
-                <li>Desarrollo con C# y JavaScript</li>
-                <li>Mantenimiento y actualización de servicios backend</li>
+                <li data-translate="icca-1">Desarrollo con C# y JavaScript</li>
+                <li data-translate="icca-2">Mantenimiento y actualización de servicios backend</li>
             </ul>
         </div>
         <div class="job">
             <h3>Smalldev · 2023</h3>
-            <p>Prácticas de consultor Odoo</p>
+            <p data-translate="smalldev-cargo">Prácticas de consultor Odoo</p>
             <ul>
-                <li>Personalización de módulos en Python y XML</li>
-                <li>Pruebas funcionales y soporte a clientes</li>
-                <li>Documentación de procesos</li>
+                <li data-translate="smalldev-1">Personalización de módulos en Python y XML</li>
+                <li data-translate="smalldev-2">Pruebas funcionales y soporte a clientes</li>
+                <li data-translate="smalldev-3">Documentación de procesos</li>
             </ul>
         </div>
         <div class="job">
             <h3>SIS Córdoba · 2021</h3>
-            <p>Prácticas de Mantenimiento SI</p>
+            <p data-translate="sis-cargo">Prácticas de Mantenimiento SI</p>
             <ul>
-                <li>Instalación y configuración de impresoras</li>
-                <li>Diagnóstico y resolución de incidencias</li>
-                <li>Mantenimiento preventivo de equipos</li>
+                <li data-translate="sis-1">Instalación y configuración de impresoras</li>
+                <li data-translate="sis-2">Diagnóstico y resolución de incidencias</li>
+                <li data-translate="sis-3">Mantenimiento preventivo de equipos</li>
             </ul>
         </div>
         <div class="job">
             <h3>STC Córdoba · 2019</h3>
-            <p>Prácticas de técnico informático</p>
+            <p data-translate="stc-cargo">Prácticas de técnico informático</p>
             <ul>
-                <li>Mantenimiento y reparación de equipos</li>
-                <li>Configuración de redes y sistemas operativos</li>
-                <li>Soporte técnico a usuarios</li>
+                <li data-translate="stc-1">Mantenimiento y reparación de equipos</li>
+                <li data-translate="stc-2">Configuración de redes y sistemas operativos</li>
+                <li data-translate="stc-3">Soporte técnico a usuarios</li>
             </ul>
         </div>
     </section>
 
     <section id="estudios">
-        <h2>Estudios</h2>
+        <h2 data-translate="estudios-titulo">Estudios</h2>
         <ul>
-            <li>2024–2025 · Desarrollo de Aplicaciones Web · IES Gran Capitán</li>
-            <li>2021–2023 · Desarrollo de Aplicaciones Multiplataforma · CES Lope de
-                Vega</li>
-            <li>2019–2021 · Administración de Sistemas Informáticos en Red · CES
-                Lope de Vega</li>
-            <li>2017–2019 · Sistemas Microinformáticos y Redes · CES Lope de Vega
-            </li>
+            <li data-translate="estudio-1">2024–2025 · Desarrollo de Aplicaciones Web · IES Gran Capitán</li>
+            <li data-translate="estudio-2">2021–2023 · Desarrollo de Aplicaciones Multiplataforma · CES Lope de Vega</li>
+            <li data-translate="estudio-3">2019–2021 · Administración de Sistemas Informáticos en Red · CES Lope de Vega</li>
+            <li data-translate="estudio-4">2017–2019 · Sistemas Microinformáticos y Redes · CES Lope de Vega</li>
         </ul>
     </section>
 
     <section id="personal">
-        <h2>Sobre mí (Personal)</h2>
-        <p>
+        <h2 data-translate="personal-titulo">Sobre mí (Personal)</h2>
+        <p data-translate="personal-p1">
             Soy una persona proactiva, organizada y con muchas ganas de seguir creciendo en el mundo del desarrollo web y software. Me considero curioso por naturaleza, lo que me lleva a investigar y aprender constantemente sobre nuevas tecnologías y tendencias del sector.
         </p>
-        <p>
+        <p data-translate="personal-p2">
             Disfruto trabajando en equipo, compartiendo conocimientos y apoyando a mis compañeros para alcanzar objetivos comunes. Valoro la comunicación clara y la colaboración como pilares fundamentales para el éxito de cualquier proyecto.
         </p>
-        <p>
+        <p data-translate="personal-p3">
             Fuera del ámbito profesional, me apasiona la música, el cine y la tecnología. Me gusta dedicar tiempo a mis hobbies, como tocar la guitarra, explorar nuevas herramientas digitales y participar en comunidades tecnológicas.
         </p>
-        <p>
+        <p data-translate="personal-p4">
             Mi objetivo es seguir desarrollándome tanto a nivel técnico como personal, aportando valor en cada proyecto y manteniendo siempre una actitud positiva y de aprendizaje continuo.
         </p>
-        </section>
+    </section>
 
     <section id="cv">
-        <h2>Descargar CV</h2>
-        <p>Puedes descargar mi CV actualizado en formato PDF desde aquí:</p>
-        <a href="./docs/CVDanielFernándezBalsera.pdf" download>Descargar CV</a>
+        <h2 data-translate="cv-titulo">Descargar CV</h2>
+        <p data-translate="cv-descripcion">Puedes descargar mi CV actualizado en formato PDF desde aquí:</p>
+        <a href="./docs/CVDanielFernándezBalsera.pdf" download data-translate="descargar-cv">Descargar CV</a>
     </section>
 
     <section id="redes">
-        <h2>Redes Sociales</h2>
+        <h2 data-translate="redes-titulo">Redes Sociales</h2>
         <ul>
             <li><a href="https://www.linkedin.com/in/daniel-fernández-balsera-03315425b"> LinkedIn</a></li>
-            <li><a href="https://github.com/BalseraDesign" target="_blank">GitHub</a>
-            </li>
+            <li><a href="https://github.com/BalseraDesign" target="_blank">GitHub</a></li>
         </ul>
     </section>
 
     <section id="contacto">
-        <h2>Contacto</h2>
-        <p><span>Correo: </span><a href="mailto:baseradesign@gmail.com">balseradeveloper@gmail.com</a></p>
-        <p><span>Teléfono: </span><a href="tel:+123456789">+34 690 99 50 89</a></p>
+        <h2 data-translate="contacto-titulo">Contacto</h2>
+        <p><span data-translate="correo">Correo: </span><a href="mailto:baseradesign@gmail.com">balseradeveloper@gmail.com</a></p>
+        <p><span data-translate="telefono">Teléfono: </span><a href="tel:+123456789">+34 690 99 50 89</a></p>
     </section>
 
     <script src="./js/scrollReveal.js"></script>
@@ -320,7 +312,7 @@
     <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
     <script src="./js/fondoAnimado.js"></script>
     <script src="./js/darkmode.js"></script>
-    <script src="./js/i18n.js"></script>
+    <script src="./js/translations.js"></script>
 </body>
 <script src="./js/navbar.js"></script>
 

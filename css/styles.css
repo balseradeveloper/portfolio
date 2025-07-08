@@ -366,6 +366,7 @@ section ul li {
 
 /*Modo oscuro*/
 
+
 #toggle-dark-mode {
     position: fixed;
     top: 1rem;
@@ -380,6 +381,36 @@ section ul li {
     font-size: 0.9rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s;
+}
+
+#toggle-language {
+    position: fixed;
+    top: 1rem;
+    right: 10rem;
+    z-index: 999;
+    background-color: var(--color-gray-light);
+    color: var(--color-black);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+#toggle-language:hover {
+    background-color: var(--color-gray-dark);
+    color: var(--color-white);
+}
+
+body.dark-mode #toggle-language {
+    background-color: var(--color-black-light);
+    color: var(--color-white-soft);
+}
+
+body.dark-mode #toggle-language:hover {
+    background-color: var(--color-gray-dark);
 }
 
 body.dark-mode {
@@ -431,6 +462,17 @@ body.dark-mode #particles-js {
     background: var(--color-black);
 }
 
+body.dark-mode .nav-arrow {
+    color: #00FFF7;
+    background-color: var(--color-black-light);
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,255,247,0.08);
+}
+
+body.dark-mode .nav-arrow:disabled {
+    color: var(--color-gray);
+    background-color: var(--color-gray-dark);
+}
 
 body.dark-mode .skill-tag {
     color: var(--color-black) !important;
