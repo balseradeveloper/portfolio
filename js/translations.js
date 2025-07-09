@@ -11,24 +11,24 @@ const translations = {
         "cv": "CV",
         "redes": "Redes",
         "contacto": "Contacto",
-        
+
         // Botones
         "modo-oscuro": "🌙 Modo oscuro",
         "modo-claro": "☀️ Modo claro",
         "english": "🇺🇸 English",
         "spanish": "🇪🇸 Español",
-        
+
         // Inicio
         "titulo-principal": "Hola, soy Daniel",
         "subtitulo": "Diseñador web & programador.",
         "descripcion-inicio": "Combino diseño intuitivo con código limpio para crear experiencias web funcionales y visualmente impactantes.",
-        
+
         // Sobre mí
         "sobre-mi-titulo": "Sobre mí",
         "sobre-mi-p1": "Soy un diseñador web y programador apasionado por crear experiencias digitales modernas, funcionales y estéticamente impactantes. Me especializo en el desarrollo de interfaces limpias y eficientes, combinando creatividad con código para dar vida a ideas únicas.",
         "sobre-mi-p2": "Tengo experiencia trabajando con HTML, CSS, JavaScript y frameworks modernos. Me gusta mantenerme actualizado con las últimas tendencias en diseño UI/UX y tecnologías web. Siempre busco soluciones que sean tanto visualmente atractivas como técnicamente sólidas.",
         "sobre-mi-p3": "Actualmente me estoy especializando en inteligencia artificial (AI) y consultoría en AI, aplicando mis conocimientos de desarrollo web y programación para crear soluciones innovadoras basadas en IA.",
-        
+
         // Proyectos
         "proyectos-titulo": "Proyectos Profesionales",
         "paginas-web": "Páginas web",
@@ -38,7 +38,7 @@ const translations = {
         "ver-proyecto-mejoras": "Ver proyecto (En mejoras)",
         "mantenimiento": "Actualmente en mantenimiento y mejoras",
         "fecha-estimada": "Fecha estimada:",
-        
+
         // Descripciones de proyectos
         "proyecto-ecopy": "Web corporativa desarrollada durante mis prácticas en Waricreative. Colaboré en diseño y la maquetación utilizando WordPress, personalizando temas y plugins para adaptarlos a las necesidades del cliente. El proyecto incluyó la optimización para SEO y la integración de funcionalidades específicas solicitadas por la empresa.",
         "proyecto-mamas": "Web corporativa desarrollada durante mis prácticas en Waricreative. Colaboré en diseño y la maquetación utilizando WordPress, personalizando temas y plugins para adaptarlos a las necesidades del cliente. El proyecto incluyó la optimización para SEO y la integración de funcionalidades específicas solicitadas por la empresa.",
@@ -56,7 +56,18 @@ const translations = {
         "resolucion-problemas": "Resolución de problemas",
         "organizacion": "Organización",
         "ganas-aprender": "Ganas de aprender",
-        
+
+
+        // Minijuego
+        "minijuego": "FlappyJS",
+        "juego-empezar": "Toca para empezar",
+        "juego-game-over": "💥 Game Over",
+        "juego-puntuacion": "Puntuación:",
+        "juego-mejor": "Mejor:",
+        "juego-mejor-puntuacion": "Mejor puntuación:",
+        "juego-intentar": "¿Intentamos de nuevo?",
+        "juego-reiniciar": "Reiniciar",
+
         // Experiencia
         "experiencia-titulo": "Experiencia Laboral",
         "waricreative-cargo": "Diseñador web y gráfico en prácticas",
@@ -85,29 +96,29 @@ const translations = {
         "stc-1": "Mantenimiento y reparación de equipos",
         "stc-2": "Configuración de redes y sistemas operativos",
         "stc-3": "Soporte técnico a usuarios",
-        
+
         // Estudios
         "estudios-titulo": "Estudios",
         "estudio-1": "2024–2025 · Desarrollo de Aplicaciones Web · IES Gran Capitán",
         "estudio-2": "2021–2023 · Desarrollo de Aplicaciones Multiplataforma · CES Lope de Vega",
         "estudio-3": "2019–2021 · Administración de Sistemas Informáticos en Red · CES Lope de Vega",
         "estudio-4": "2017–2019 · Sistemas Microinformáticos y Redes · CES Lope de Vega",
-        
+
         // Personal
         "personal-titulo": "Sobre mí (Personal)",
         "personal-p1": "Soy una persona proactiva, organizada y con muchas ganas de seguir creciendo en el mundo del desarrollo web y software. Me considero curioso por naturaleza, lo que me lleva a investigar y aprender constantemente sobre nuevas tecnologías y tendencias del sector.",
         "personal-p2": "Disfruto trabajando en equipo, compartiendo conocimientos y apoyando a mis compañeros para alcanzar objetivos comunes. Valoro la comunicación clara y la colaboración como pilares fundamentales para el éxito de cualquier proyecto.",
         "personal-p3": "Fuera del ámbito profesional, me apasiona la música, el cine y la tecnología. Me gusta dedicar tiempo a mis hobbies, como tocar la guitarra, explorar nuevas herramientas digitales y participar en comunidades tecnológicas.",
         "personal-p4": "Mi objetivo es seguir desarrollándome tanto a nivel técnico como personal, aportando valor en cada proyecto y manteniendo siempre una actitud positiva y de aprendizaje continuo.",
-        
+
         // CV
         "cv-titulo": "Descargar CV",
         "cv-descripcion": "Puedes descargar mi CV actualizado en formato PDF desde aquí:",
         "descargar-cv": "Descargar CV",
-        
+
         // Redes
         "redes-titulo": "Redes Sociales",
-        
+
         // Contacto
         "contacto-titulo": "Contacto",
         "correo": "Correo: ",
@@ -125,24 +136,24 @@ const translations = {
         "cv": "CV",
         "redes": "Social",
         "contacto": "Contact",
-        
+
         // Botones
         "modo-oscuro": "🌙 Dark mode",
         "modo-claro": "☀️ Light mode",
         "english": "🇺🇸 English",
         "spanish": "🇪🇸 Español",
-        
+
         // Inicio
         "titulo-principal": "Hi, I'm Daniel",
         "subtitulo": "Web designer & programmer.",
         "descripcion-inicio": "I combine intuitive design with clean code to create functional and visually striking web experiences.",
-        
+
         // Sobre mí
         "sobre-mi-titulo": "About me",
         "sobre-mi-p1": "I'm a web designer and programmer passionate about creating modern, functional and aesthetically striking digital experiences. I specialize in developing clean and efficient interfaces, combining creativity with code to bring unique ideas to life.",
         "sobre-mi-p2": "I have experience working with HTML, CSS, JavaScript and modern frameworks. I like to stay updated with the latest trends in UI/UX design and web technologies. I always look for solutions that are both visually appealing and technically solid.",
         "sobre-mi-p3": "I'm currently specializing in artificial intelligence (AI) and AI consulting, applying my web development and programming knowledge to create innovative AI-based solutions.",
-        
+
         // Proyectos
         "proyectos-titulo": "Professional Projects",
         "paginas-web": "Websites",
@@ -152,7 +163,7 @@ const translations = {
         "ver-proyecto-mejoras": "View project (Under improvements)",
         "mantenimiento": "Currently under maintenance and improvements",
         "fecha-estimada": "Estimated date:",
-        
+
         // Descripciones de proyectos
         "proyecto-ecopy": "Corporate website developed during my internship at Waricreative. I collaborated on design and layout using WordPress, customizing themes and plugins to adapt to client needs. The project included SEO optimization and integration of specific functionalities requested by the company.",
         "proyecto-mamas": "Corporate website developed during my internship at Waricreative. I collaborated on design and layout using WordPress, customizing themes and plugins to adapt to client needs. The project included SEO optimization and integration of specific functionalities requested by the company.",
@@ -170,7 +181,7 @@ const translations = {
         "resolucion-problemas": "Problem solving",
         "organizacion": "Organization",
         "ganas-aprender": "Willingness to learn",
-        
+
         // Experiencia
         "experiencia-titulo": "Work Experience",
         "waricreative-cargo": "Web and graphic designer intern",
@@ -199,29 +210,40 @@ const translations = {
         "stc-1": "Equipment maintenance and repair",
         "stc-2": "Network and operating system configuration",
         "stc-3": "Technical support to users",
-        
+
         // Estudios
         "estudios-titulo": "Education",
         "estudio-1": "2024–2025 · Web Application Development · IES Gran Capitán",
         "estudio-2": "2021–2023 · Multiplatform Application Development · CES Lope de Vega",
         "estudio-3": "2019–2021 · Computer Network Systems Administration · CES Lope de Vega",
         "estudio-4": "2017–2019 · Microcomputer Systems and Networks · CES Lope de Vega",
-        
+
         // Personal
         "personal-titulo": "About me (Personal)",
         "personal-p1": "I am a proactive, organized person with a great desire to continue growing in the world of web and software development. I consider myself curious by nature, which leads me to constantly research and learn about new technologies and industry trends.",
         "personal-p2": "I enjoy working in teams, sharing knowledge and supporting my colleagues to achieve common goals. I value clear communication and collaboration as fundamental pillars for the success of any project.",
         "personal-p3": "Outside the professional field, I am passionate about music, cinema and technology. I like to dedicate time to my hobbies, such as playing guitar, exploring new digital tools and participating in technological communities.",
         "personal-p4": "My goal is to continue developing both technically and personally, adding value to each project and always maintaining a positive attitude and continuous learning.",
-        
+
+
+        // Minijuego
+        "minijuego": "FlappyJS",
+        "juego-empezar": "Tap to start",
+        "juego-game-over": "💥 Game Over",
+        "juego-puntuacion": "Score:",
+        "juego-mejor": "Best:",
+        "juego-mejor-puntuacion": "Best score:",
+        "juego-intentar": "Try again?",
+        "juego-reiniciar": "Restart",
+
         // CV
         "cv-titulo": "Download CV",
         "cv-descripcion": "You can download my updated CV in PDF format from here:",
         "descargar-cv": "Download CV",
-        
+
         // Redes
         "redes-titulo": "Social Networks",
-        
+
         // Contacto
         "contacto-titulo": "Contact",
         "correo": "Email: ",
@@ -239,7 +261,7 @@ function translatePage() {
             element.textContent = translations[currentLanguage][key];
         }
     });
-    
+
     // Actualizar el botón de idioma
     const languageBtn = document.getElementById('toggle-language');
     if (currentLanguage === 'es') {
@@ -247,7 +269,7 @@ function translatePage() {
     } else {
         languageBtn.textContent = translations[currentLanguage]['spanish'];
     }
-    
+
     // Actualizar el botón de modo oscuro también
     const darkModeBtn = document.getElementById('toggle-dark-mode');
     const isDark = document.body.classList.contains('dark-mode');
@@ -270,7 +292,7 @@ window.translations = translations;
 // Inicializar
 document.addEventListener('DOMContentLoaded', () => {
     translatePage();
-    
+
     const languageBtn = document.getElementById('toggle-language');
     languageBtn.addEventListener('click', toggleLanguage);
 });

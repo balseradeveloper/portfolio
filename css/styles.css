@@ -404,6 +404,83 @@ section ul li {
     color: var(--color-white);
 }
 
+#gameOver {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border: 2px solid #333;
+    font-family: sans-serif;
+    text-align: center;
+    z-index: 1000;
+    width: 90vw;
+    max-width: 350px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-size: 1rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+#gameOver h3 {
+    margin: 0 0 1rem 0;
+    color: #e74c3c;
+    font-size: 1.4rem;
+}
+
+#gameOver p {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+#gameOver button {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+#gameOver button:hover {
+    background-color: var(--color-gray-dark);
+    transform: translateY(-1px);
+}
+
+/* ...existing code... */
+
+/* Modo oscuro para el modal */
+body.dark-mode #gameOver {
+    background: var(--color-black-light);
+    color: var(--color-white-soft);
+    border-color: var(--color-white-soft);
+}
+
+body.dark-mode #gameOver h3 {
+    color: #ff6b6b;
+}
+
+body.dark-mode #gameOver p {
+    color: var(--color-white-soft);
+}
+
+body.dark-mode #gameOver button {
+    background-color: var(--color-white-soft);
+    color: var(--color-black);
+}
+
+body.dark-mode #gameOver button:hover {
+    background-color: var(--color-gray-dark);
+    color: var(--color-white);
+}
+
+
 body.dark-mode #toggle-language {
     background-color: var(--color-black-light);
     color: var(--color-white-soft);
@@ -478,6 +555,11 @@ body.dark-mode .skill-tag {
     color: var(--color-black) !important;
 }
 
+body.dark-mode #gameOver {
+    background: var(--color-black-light);
+    color: var(--color-white-soft);
+    border-color: var(--color-white-soft);
+}
 
 /*Tablet design*/
 
