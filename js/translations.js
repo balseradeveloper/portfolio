@@ -115,7 +115,7 @@ const translations = {
 
         // CV
         "cv-titulo": "Descargar CV",
-        "cv-descripcion": "Puedes descargar mi CV actualizado en formato PDF desde aquí:",
+        "cv-descripcion": "Puedes descargar mi CV en español actualizado en formato PDF desde aquí:",
         "descargar-cv": "Descargar CV",
 
         // Redes
@@ -241,7 +241,7 @@ const translations = {
 
         // CV
         "cv-titulo": "Download CV",
-        "cv-descripcion": "You can download my updated CV in PDF format from here:",
+        "cv-descripcion": "You can download my updated CV in Spanish in PDF format from here:",
         "descargar-cv": "Download CV",
 
         // Redes
