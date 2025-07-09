@@ -39,6 +39,7 @@ const translations = {
         "mantenimiento": "Actualmente en mantenimiento y mejoras",
         "fecha-estimada": "Fecha estimada:",
 
+
         // Descripciones de proyectos
         "proyecto-ecopy": "Web corporativa desarrollada durante mis prácticas en Waricreative. Colaboré en diseño y la maquetación utilizando WordPress, personalizando temas y plugins para adaptarlos a las necesidades del cliente. El proyecto incluyó la optimización para SEO y la integración de funcionalidades específicas solicitadas por la empresa.",
         "proyecto-mamas": "Web corporativa desarrollada durante mis prácticas en Waricreative. Colaboré en diseño y la maquetación utilizando WordPress, personalizando temas y plugins para adaptarlos a las necesidades del cliente. El proyecto incluyó la optimización para SEO y la integración de funcionalidades específicas solicitadas por la empresa.",
@@ -47,6 +48,7 @@ const translations = {
         "proyecto-frikema": "Frikema es una app web en la que puedes consultar los últimos estrenos del cine, así como ver información sobre películas de otros años y podrás consultar los cines más destacados de cada ciudad de andalucía.",
         "proyecto-balserai": "BalserAI será una inteligencia artificial diseñada para traducir documentos y proporcionar información relevante al usuario de forma automática y eficiente.",
         "proyecto-tairus": "Tairus ERP es un sistema de gestión empresarial integral que incorpora inteligencia artificial para automatizar procesos, analizar datos y optimizar la toma de decisiones. Ofrece módulos de contabilidad, ventas, compras, inventario y recursos humanos, todo conectado y potenciado por IA para mejorar la eficiencia y la productividad de las empresas.",
+        "proyecto-tairus-landing": "Landing page promocional para Tairus ERP, diseñada para captar clientes y mostrar las funcionalidades clave del sistema.",
         // Tecnologías
         "tecnologias-titulo": "Tecnologías / Habilidades Destacadas",
         "profesionales": "Profesionales",
@@ -172,6 +174,7 @@ const translations = {
         "proyecto-frikema": "Frikema is a web app where you can check the latest movie releases, as well as see information about movies from other years and you can check the most outstanding cinemas in each city of Andalusia.",
         "proyecto-balserai": "BalserAI will be an artificial intelligence designed to translate documents and provide relevant information to the user automatically and efficiently.",
         "proyecto-tairus": "Tairus ERP is a comprehensive business management system that incorporates artificial intelligence to automate processes, analyze data, and optimize decision-making. It offers modules for accounting, sales, purchasing, inventory, and human resources, all connected and powered by AI to improve business efficiency and productivity.",
+        "proyecto-tairus-landing": "Promotional landing page for Tairus ERP, designed to attract clients and showcase the system's key features.",
         // Tecnologías
         "tecnologias-titulo": "Technologies / Featured Skills",
         "profesionales": "Professional",
