@@ -38,7 +38,7 @@ const translations = {
         "ver-proyecto-mejoras": "Ver proyecto (En mejoras)",
         "mantenimiento": "Actualmente en mantenimiento y mejoras",
         "fecha-estimada": "Fecha estimada:",
-
+        "proyecto-en-progreso": "En desarrollo",
 
         // Descripciones de proyectos
         "proyecto-ecopy": "Web corporativa desarrollada durante mis prácticas en Waricreative. Colaboré en diseño y la maquetación utilizando WordPress, personalizando temas y plugins para adaptarlos a las necesidades del cliente. El proyecto incluyó la optimización para SEO y la integración de funcionalidades específicas solicitadas por la empresa.",
@@ -49,6 +49,8 @@ const translations = {
         "proyecto-balserai": "BalserAI será una inteligencia artificial diseñada para traducir documentos y proporcionar información relevante al usuario de forma automática y eficiente.",
         "proyecto-tairus": "Tairus ERP es un sistema de gestión empresarial integral que incorpora inteligencia artificial para automatizar procesos, analizar datos y optimizar la toma de decisiones. Ofrece módulos de contabilidad, ventas, compras, inventario y recursos humanos, todo conectado y potenciado por IA para mejorar la eficiencia y la productividad de las empresas.",
         "proyecto-tairus-landing": "Landing page promocional para Tairus ERP, diseñada para captar clientes y mostrar las funcionalidades clave del sistema.",
+        "proyecto-friendzoneai": "FriendZoneAI es una app para conocer gente con tus mismos gustos en tu zona. Incluye tareas personalizadas que la IA te ayuda a realizar para mejorar tu perfil y facilitar nuevas conexiones.",
+        
         // Tecnologías
         "tecnologias-titulo": "Tecnologías / Habilidades Destacadas",
         "profesionales": "Profesionales",
@@ -165,7 +167,8 @@ const translations = {
         "ver-proyecto-mejoras": "View project (Under improvements)",
         "mantenimiento": "Currently under maintenance and improvements",
         "fecha-estimada": "Estimated date:",
-
+        "proyecto-en-progreso": "In development",
+        
         // Descripciones de proyectos
         "proyecto-ecopy": "Corporate website developed during my internship at Waricreative. I collaborated on design and layout using WordPress, customizing themes and plugins to adapt to client needs. The project included SEO optimization and integration of specific functionalities requested by the company.",
         "proyecto-mamas": "Corporate website developed during my internship at Waricreative. I collaborated on design and layout using WordPress, customizing themes and plugins to adapt to client needs. The project included SEO optimization and integration of specific functionalities requested by the company.",
@@ -175,6 +178,8 @@ const translations = {
         "proyecto-balserai": "BalserAI will be an artificial intelligence designed to translate documents and provide relevant information to the user automatically and efficiently.",
         "proyecto-tairus": "Tairus ERP is a comprehensive business management system that incorporates artificial intelligence to automate processes, analyze data, and optimize decision-making. It offers modules for accounting, sales, purchasing, inventory, and human resources, all connected and powered by AI to improve business efficiency and productivity.",
         "proyecto-tairus-landing": "Promotional landing page for Tairus ERP, designed to attract clients and showcase the system's key features.",
+        "proyecto-friendzoneai": "FriendZoneAI is an app to meet people with your same interests in your area. It includes personalized tasks that the AI helps you complete to improve your profile and facilitate new connections.",
+       
         // Tecnologías
         "tecnologias-titulo": "Technologies / Featured Skills",
         "profesionales": "Professional",

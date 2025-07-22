@@ -604,28 +604,6 @@ body.dark-mode #gameOver {
     }
 
     .proyectos-grid {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 2rem;
-    }
-
-    .proyecto {
-        width: 48%;
-        min-width: 260px;
-        max-width: 400px;
-        margin: 0 auto;
-    }
-
-    .job h3 {
-        font-size: 1.15rem;
-    }
-
-    #cv a {
-        font-size: 1.05rem;
-        padding: 0.7rem 1.5rem;
-    }
-
-    .proyectos-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
@@ -636,6 +614,15 @@ body.dark-mode #gameOver {
         min-width: 0;
         max-width: 100%;
         margin: 0;
+    }
+
+    .job h3 {
+        font-size: 1.15rem;
+    }
+
+    #cv a {
+        font-size: 1.05rem;
+        padding: 0.7rem 1.5rem;
     }
 
 }
