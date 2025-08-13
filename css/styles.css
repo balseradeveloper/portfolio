@@ -331,6 +331,95 @@ section ul li {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Nuevos estilos para tecnologías con iconos */
+.tech-icons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--color-white-soft);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tech-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.tech-item iconify-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Iconos específicos que necesitan ajustes de color para modo oscuro */
+.tech-item iconify-icon[icon="simple-icons:odoo"] {
+    color: #875A7B;
+}
+
+.tech-item iconify-icon[icon="simple-icons:woocommerce"] {
+    color: #96588A;
+}
+
+.tech-item iconify-icon[icon="simple-icons:dotnet"] {
+    color: #512BD4;
+}
+
+/* Modo oscuro - mantener colores específicos de marca */
+body.dark-mode .tech-item iconify-icon[icon="simple-icons:odoo"] {
+    color: #A577B8;
+}
+
+body.dark-mode .tech-item iconify-icon[icon="simple-icons:woocommerce"] {
+    color: #B577A8;
+}
+
+body.dark-mode .tech-item iconify-icon[icon="simple-icons:dotnet"] {
+    color: #7B68EE;
+}
+
+.tech-item span {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-black);
+}
+
+/* Estilos para la sección de idiomas */
+.language-levels {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.language-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--color-white-soft);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.language-item iconify-icon {
+    font-size: 2rem;
+}
+
+.language-item span {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--color-black);
+}
+
 /* 2) Igualar altura de imágenes en proyectos */
 .proyecto .img-container {
     width: 100%;
@@ -555,6 +644,26 @@ body.dark-mode .skill-tag {
     color: var(--color-black) !important;
 }
 
+/* Modo oscuro para tecnologías */
+body.dark-mode .tech-item {
+    background-color: var(--color-black-light);
+    color: var(--color-white-soft);
+}
+
+body.dark-mode .tech-item span {
+    color: var(--color-white-soft);
+}
+
+/* Modo oscuro para idiomas */
+body.dark-mode .language-item {
+    background-color: var(--color-black-light);
+    color: var(--color-white-soft);
+}
+
+body.dark-mode .language-item span {
+    color: var(--color-white-soft);
+}
+
 body.dark-mode #gameOver {
     background: var(--color-black-light);
     color: var(--color-white-soft);
@@ -623,6 +732,33 @@ body.dark-mode #gameOver {
     #cv a {
         font-size: 1.05rem;
         padding: 0.7rem 1.5rem;
+    }
+
+    .tech-icons-grid {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .tech-item {
+        padding: 1.2rem;
+    }
+
+    .tech-item iconify-icon {
+        font-size: 3rem;
+    }
+
+    .tech-item span {
+        font-size: 1rem;
+    }
+
+    .language-levels {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .language-item {
+        flex: 1;
+        padding: 1.2rem;
     }
 
 }
@@ -701,5 +837,34 @@ body.dark-mode #gameOver {
     .nav-arrow {
         font-size: 2rem;
         padding: 0.8rem;
+    }
+
+    .tech-icons-grid {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 2rem;
+    }
+
+    .tech-item {
+        padding: 1.5rem;
+    }
+
+    .tech-item iconify-icon {
+        font-size: 3.5rem;
+    }
+
+    .tech-item span {
+        font-size: 1.1rem;
+    }
+
+    .language-item {
+        padding: 1.5rem;
+    }
+
+    .language-item iconify-icon {
+        font-size: 2.5rem;
+    }
+
+    .language-item span {
+        font-size: 1.2rem;
     }
 }
