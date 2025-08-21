@@ -52,7 +52,8 @@ const translations = {
         "proyecto-tairus": "Sistema ERP integral que incorpora inteligencia artificial para automatizar procesos empresariales. Desarrollado con tecnologías modernas, incluye módulos de contabilidad, ventas, compras, inventario y recursos humanos. La IA optimiza la toma de decisiones mediante análisis predictivo y automatización de tareas repetitivas, mejorando significativamente la productividad empresarial.",
         "proyecto-tairus-landing": "Landing page promocional responsive para Tairus ERP desarrollada con React y TypeScript. Diseño moderno con animaciones suaves, formularios de contacto integrados, secciones informativas sobre las funcionalidades del ERP y llamadas a la acción optimizadas para conversión. Incluye testimonios de clientes y casos de éxito.",
         "proyecto-friendzoneai": "Aplicación social que utiliza inteligencia artificial para conectar personas con intereses similares en su zona geográfica. Incluye algoritmos de matching inteligente, tareas gamificadas generadas por IA para mejorar perfiles de usuario, sistema de geolocalización y chat integrado. Desarrollada pensando en crear conexiones auténticas y significativas.",
-        
+        "proyecto-nordicdreams": "Nordic Dreams es una web para una agencia turística de Noruega, desarrollada con HTML5, CSS3 y JavaScript Vanilla. Incluye diseño responsive, galería de destinos, formulario de contacto y recomendaciones personalizadas para viajeros.",
+
         // Tecnologías
         "tecnologias-titulo": "Tecnologías / Habilidades Destacadas",
         "lenguajes": "Lenguajes",
@@ -184,7 +185,7 @@ const translations = {
         "mantenimiento": "Currently under maintenance and improvements",
         "fecha-estimada": "Estimated date:",
         "proyecto-en-progreso": "In development",
-        
+
         // Descripciones de proyectos
         "proyecto-ecopy": "Corporate website developed during my internship at Waricreative using WordPress and Avada. Includes responsive design, SEO optimization, contact form integration, and complete theme customization to reflect the client's corporate identity. The project was delivered on time meeting all established requirements.",
         "proyecto-mamas": "Corporate website for Escuela Para Mamás Mágicas developed during my internship at Waricreative. WordPress and Avada implementation, mobile-responsive design, online booking system integration, optimized image gallery, and custom contact forms. Project completed successfully within the established timeframe.",
@@ -196,7 +197,8 @@ const translations = {
         "proyecto-tairus": "Comprehensive ERP system that incorporates artificial intelligence to automate business processes. Developed with modern technologies, includes accounting, sales, purchasing, inventory, and human resources modules. AI optimizes decision-making through predictive analysis and automation of repetitive tasks, significantly improving business productivity.",
         "proyecto-tairus-landing": "Responsive promotional landing page for Tairus ERP developed with React and TypeScript. Modern design with smooth animations, integrated contact forms, informative sections about ERP functionalities, and conversion-optimized call-to-actions. Includes customer testimonials and success stories.",
         "proyecto-friendzoneai": "Social application that uses artificial intelligence to connect people with similar interests in their geographic area. Features intelligent matching algorithms, gamified AI-generated tasks to improve user profiles, geolocation system, and integrated chat. Developed to create authentic and meaningful connections.",
-       
+        "proyecto-nordicdreams": "Nordic Dreams is a website for a Norwegian travel agency, developed with HTML5, CSS3 and Vanilla JavaScript. Features responsive design, destination gallery, contact form and personalized recommendations for travelers.",
+
         // Tecnologías
         "tecnologias-titulo": "Technologies / Featured Skills",
         "lenguajes": "Languages",
