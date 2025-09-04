@@ -53,6 +53,7 @@ const translations = {
         "proyecto-tairus-landing": "Landing page promocional responsive para Tairus ERP desarrollada con React y TypeScript. Diseño moderno con animaciones suaves, formularios de contacto integrados, secciones informativas sobre las funcionalidades del ERP y llamadas a la acción optimizadas para conversión. Incluye testimonios de clientes y casos de éxito.",
         "proyecto-friendzoneai": "Aplicación social que utiliza inteligencia artificial para conectar personas con intereses similares en su zona geográfica. Incluye algoritmos de matching inteligente, tareas gamificadas generadas por IA para mejorar perfiles de usuario, sistema de geolocalización y chat integrado. Desarrollada pensando en crear conexiones auténticas y significativas.",
         "proyecto-nordicdreams": "Nordic Dreams es una web para una agencia turística de Noruega, desarrollada con HTML5, CSS3 y JavaScript Vanilla. Incluye diseño responsive, galería de destinos, formulario de contacto y recomendaciones personalizadas para viajeros.",
+    "proyecto-businessanalytics": "Módulo desarrollado para Dolibarr con PHP, HTML, CSS, JavaScript y SQL. Permite registrar y visualizar el número de clientes nuevos, productos, facturas pendientes y ventas totales, mostrando gráficos interactivos para cada métrica y facilitando el análisis de negocio en tiempo real.",
 
         // Tecnologías
         "tecnologias-titulo": "Tecnologías / Habilidades Destacadas",
@@ -198,6 +199,7 @@ const translations = {
         "proyecto-tairus-landing": "Responsive promotional landing page for Tairus ERP developed with React and TypeScript. Modern design with smooth animations, integrated contact forms, informative sections about ERP functionalities, and conversion-optimized call-to-actions. Includes customer testimonials and success stories.",
         "proyecto-friendzoneai": "Social application that uses artificial intelligence to connect people with similar interests in their geographic area. Features intelligent matching algorithms, gamified AI-generated tasks to improve user profiles, geolocation system, and integrated chat. Developed to create authentic and meaningful connections.",
         "proyecto-nordicdreams": "Nordic Dreams is a website for a Norwegian travel agency, developed with HTML5, CSS3 and Vanilla JavaScript. Features responsive design, destination gallery, contact form and personalized recommendations for travelers.",
+    "proyecto-businessanalytics": "Module developed for Dolibarr with PHP, HTML, CSS, JavaScript and SQL. Allows registering and visualizing the number of new clients, products, pending invoices and total sales, displaying interactive charts for each metric and facilitating real-time business analysis.",
 
         // Tecnologías
         "tecnologias-titulo": "Technologies / Featured Skills",
